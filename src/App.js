@@ -17,8 +17,9 @@ function App() {
 
   return (
       <div className="App">
+        <div className="Header">CSV UPLOAD ONLY</div>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <input type="file" {...register("file")} />
+          <input type="file" accept={".csv"}  {...register("file")} />
 
           <input type="submit" />
         </form>
