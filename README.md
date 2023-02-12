@@ -1,3 +1,5 @@
+# npm install
+
 # start node.js server in terminal with command: 
 # node server.mjs
 
