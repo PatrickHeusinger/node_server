@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d566f250-7b67-4b4c-a7c7-f6272b235dd5" name="Changes" comment="update readme.md">
+    <list default="true" id="d566f250-7b67-4b4c-a7c7-f6272b235dd5" name="Changes" comment="add accept csv files only">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -67,7 +69,8 @@
       <workItem from="1676120139658" duration="572000" />
       <workItem from="1676120801053" duration="1514000" />
       <workItem from="1676130823780" duration="276000" />
-      <workItem from="1676131612616" duration="348000" />
+      <workItem from="1676131612616" duration="486000" />
+      <workItem from="1676185353804" duration="5412000" />
     </task>
     <task id="LOCAL-00001" summary="Init simple node server with frontend">
       <created>1676121266215</created>
@@ -90,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676121920267</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add accept csv files only">
+      <created>1676131983471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676131983471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +122,7 @@
     <MESSAGE value="Init simple node server with frontend" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="update readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update readme.md" />
+    <MESSAGE value="add accept csv files only" />
+    <option name="LAST_COMMIT_MESSAGE" value="add accept csv files only" />
   </component>
 </project>

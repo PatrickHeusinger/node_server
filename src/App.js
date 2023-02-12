@@ -1,6 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "./App.css"
+import { MantineProvider, Button, Box } from '@mantine/core';
+
 function App() {
   const { register, handleSubmit } = useForm();
 
@@ -16,14 +18,21 @@ function App() {
   };
 
   return (
-      <div className="App">
-        <div className="Header">CSV UPLOAD ONLY</div>
+      <MantineProvider withGlobalStyles withNormalizeCSS>
+      <Box className="App">
+        <Box className="Header">CSV UPLOAD ONLY</Box>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <input type="file" accept={".csv"}  {...register("file")} />
+            <Box className="file-input">
+                <Button>
+                    <input className="custom-file-input" type="file" accept={".csv"}  {...register("file")} />
+                </Button>
 
-          <input type="submit" />
+            </Box>
+            <Button mt={20} type="submit">Upload</Button>
         </form>
-      </div>
+      </Box>
+      </MantineProvider>
+
   );
 }
 
