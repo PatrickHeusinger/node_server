@@ -1,9 +1,9 @@
-# npm install
+### `npm install`
 
-# start node.js server in terminal with command: 
-# node server.mjs
+## start node.js server in terminal with command: 
+### `node server.mjs`
 
-# start frontend with command:
-# npm run start
+## start frontend with command:
+### `npm run start`
 
-# that's it!
+That's it!
